@@ -5,72 +5,83 @@
   <title>Alexander J. Klein</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;500&display=swap');
-
     body {
-      font-family: Futura, system-ui, sans-serif;
+      font-family: 'Futura', system-ui, sans-serif;
       background: #f9f9f9;
-      color: #000;
+      color: #111;
       margin: 0;
       padding: 2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
+      transition: background 0.3s, color 0.3s;
     }
-
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #111;
+        color: #f9f9f9;
+      }
+      a {
+        color: #66bfff;
+      }
+    }
     h1 {
       font-size: 2.2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.2rem;
     }
-
+    p.subtitle {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      color: inherit;
+      opacity: 0.8;
+    }
     h2 {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin-top: 2rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       text-align: center;
     }
-
     ul {
       list-style: none;
       padding: 0;
       max-width: 400px;
       width: 100%;
+      margin: 0;
     }
-
     li {
       margin: 1rem 0;
       text-align: center;
     }
-
     a {
       text-decoration: none;
       color: #0077cc;
       font-weight: 500;
       font-size: 1.1rem;
     }
-
     a:hover {
       text-decoration: underline;
     }
 
-    @media (prefers-color-scheme: dark) {
-      body {
-        background: #121212;
-        color: #f1f1f1;
+    @media (max-width: 500px) {
+      h2 {
+        font-size: 1rem;
+        font-weight: 600;
       }
-
       a {
-        color: #66ccff;
+        font-size: 1rem;
       }
     }
   </style>
 </head>
 <body>
   <h1>Alexander J. Klein</h1>
+  <p class="subtitle">PhD Researcher · Political Science · Berlin</p>
 
   <h2>Current Plans</h2>
   <ul>
-    <li><a href="https://www.scripts-berlin.eu/birt/bgts/bgts_people/phd-students/Klein/index.html" target="_blank">🎓 PhD Researcher @ SCRIPTS Berlin</a></li>
+    <li><a href="https://www.scripts-berlin.eu/birt/bgts/bgts_people/phd-students/Klein/index.html" target="_blank">🎓 Academic Page (SCRIPTS Berlin)</a></li>
     <li><a href="https://linkedin.com/in/alexander-j-klein" target="_blank">💼 LinkedIn</a></li>
   </ul>
 
