@@ -5,8 +5,13 @@
   <title>Alexander J. Klein</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    @font-face {
+      font-family: 'Futura';
+      src: local('Futura'), local('Futura-Medium');
+    }
+
     body {
-      font-family: "Futura", sans-serif;
+      font-family: 'Futura', system-ui, sans-serif;
       background: #f9f9f9;
       margin: 0;
       padding: 2rem;
@@ -14,46 +19,60 @@
       flex-direction: column;
       align-items: center;
     }
+
     h1 {
       font-size: 2.2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
+
+    h2 {
+      font-size: 1.2rem;
+      margin: 2rem 0 0.5rem;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
     ul {
       list-style: none;
       padding: 0;
       max-width: 400px;
       width: 100%;
+      margin: 0;
     }
+
     li {
-      margin: 1rem 0;
+      margin: 0.8rem 0;
       text-align: center;
     }
+
     a {
       text-decoration: none;
       color: #0077cc;
       font-weight: 500;
       font-size: 1.1rem;
     }
+
     a:hover {
       text-decoration: underline;
-    }
-    .note {
-      margin-top: 2rem;
-      font-style: italic;
-      color: #666;
-      text-align: center;
-      font-size: 0.95rem;
     }
   </style>
 </head>
 <body>
   <h1>Alexander J. Klein</h1>
+
+  <h2>Current Work</h2>
   <ul>
-    <li><a href="https://www.scripts-berlin.eu/birt/bgts/bgts_people/phd-students/Klein/index.html" target="_blank">🎓 Academic Page (SCRIPTS Berlin)</a></li>
+    <li><a href="https://www.scripts-berlin.eu/birt/bgts/bgts_people/phd-students/Klein/index.html" target="_blank">🎓 PhD Researcher @ SCRIPTS Berlin</a></li>
     <li><a href="https://linkedin.com/in/alexander-j-klein" target="_blank">💼 LinkedIn</a></li>
+  </ul>
+
+  <h2>Social Media</h2>
+  <ul>
     <li><a href="https://bsky.app/profile/alexanderjklein.eu" target="_blank">🔷 Bluesky</a></li>
   </ul>
-  <p class="note">Future plans:</p>
+
+  <h2>Future Plans</h2>
   <ul>
     <li><a href="https://substack.com/@alexanderjklein?utm_source=user-menu" target="_blank">✍️ Substack</a></li>
   </ul>
