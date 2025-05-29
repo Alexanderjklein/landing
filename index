@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexander J. Klein</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    h1 { text-align: center; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    a { color: #007acc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Alexander J. Klein</h1>
+  <p>This is my digital calling card.</p>
+  <ul>
+    <li><a href="https://bsky.app/profile/alexanderjklein.bsky.social" target="_blank">Bluesky</a></li>
+    <li><a href="https://alexanderjklein.substack.com" target="_blank">Substack</a></li>
+    <li><a href="https://www.scripts-berlin.eu/alexander-klein" target="_blank">Academic Profile</a></li>
+  </ul>
+</body>
+</html>
