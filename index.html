@@ -5,14 +5,12 @@
   <title>Alexander J. Klein</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    @font-face {
-      font-family: 'Futura';
-      src: local('Futura'), local('Futura-Medium');
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;500&display=swap');
 
     body {
-      font-family: 'Futura', system-ui, sans-serif;
+      font-family: Futura, system-ui, sans-serif;
       background: #f9f9f9;
+      color: #000;
       margin: 0;
       padding: 2rem;
       display: flex;
@@ -22,15 +20,14 @@
 
     h1 {
       font-size: 2.2rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     h2 {
-      font-size: 1.2rem;
-      margin: 2rem 0 0.5rem;
-      color: #333;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
     }
 
     ul {
@@ -38,11 +35,10 @@
       padding: 0;
       max-width: 400px;
       width: 100%;
-      margin: 0;
     }
 
     li {
-      margin: 0.8rem 0;
+      margin: 1rem 0;
       text-align: center;
     }
 
@@ -56,12 +52,23 @@
     a:hover {
       text-decoration: underline;
     }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #121212;
+        color: #f1f1f1;
+      }
+
+      a {
+        color: #66ccff;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Alexander J. Klein</h1>
 
-  <h2>Current Work</h2>
+  <h2>Current Plans</h2>
   <ul>
     <li><a href="https://www.scripts-berlin.eu/birt/bgts/bgts_people/phd-students/Klein/index.html" target="_blank">🎓 PhD Researcher @ SCRIPTS Berlin</a></li>
     <li><a href="https://linkedin.com/in/alexander-j-klein" target="_blank">💼 LinkedIn</a></li>
